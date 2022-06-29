@@ -1,4 +1,5 @@
 import React from 'react'
+import { StyleSheet } from 'react-native';
 import Counter from '../components/Counter'
 
 export default function Play({ route, navigation }) {
@@ -9,9 +10,17 @@ export default function Play({ route, navigation }) {
     }
 
   return (
-    <>
+    <div>
         <div>{players} players</div>
         <div>{fields}</div>
-    </>
+    </div>
   )
 }
+
+const styles = StyleSheet.create({
+    container: {
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: "center"
+    }
+  });

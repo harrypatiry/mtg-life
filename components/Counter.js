@@ -1,18 +1,17 @@
 import React, { useState } from 'react'
-import { Pressable, StyleSheet, Text } from 'react-native'
+import { Button, Pressable, StyleSheet, Text } from 'react-native'
 
 export default function Counter() {
-    const [count, setCount] = useState(20)
+    //start at 40 for commander 
+    const [count, setCount] = useState(40)
   return (
-    <>
-        <p>{count}</p>
-        <Pressable style={styles.button} title="+" onPress={() => setCount(count + 1)}>
-            <Text style={styles.text}>+</Text>
-        </Pressable>
-        <Pressable style={styles.button} title="-" onPress={() => setCount(count - 1)}>
-        <Text style={styles.text}>-</Text>
-        </Pressable>
-    </>
+    <div>
+        <p style={{ textAlign: 'center' }}>{count}</p>
+        <div style={{ textAlign: 'center', justifyContent: 'center' }}>
+            <Button style={styles.button} color="black" title="+" onPress={() => setCount(count + 1)}/>
+            <Button style={styles.button} color="black" title="-" onPress={() => setCount(count - 1)}/>
+        </div>
+    </div>
   )
 }
 
@@ -26,11 +25,11 @@ const styles = StyleSheet.create({
     button: {
         alignItems: 'center',
         justifyContent: 'center',
-        paddingVertical: 12,
-        paddingHorizontal: 32,
-        borderRadius: 4,
-        elevation: 3,
         backgroundColor: 'black',
+        // paddingLeft: '25%',
+        // paddingRight: '25%',
+        paddingTop: '10px',
+        paddingBottom: '10px',
       },
       text: {
         fontSize: 16,

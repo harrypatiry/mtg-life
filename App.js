@@ -14,7 +14,7 @@ const App = () => {
         <Stack.Screen
           name="Home"
           component={Home}
-          options={{ title: 'Welcome' }}
+          options={{ title: 'Magic the Gathering' }}
         />
         <Stack.Screen name="Play" component={Play} />
       </Stack.Navigator>

@@ -12,11 +12,12 @@ function Player({ navigation }) {
             <option value={4}>4</option>
         </select>
         <Button
-                title="Play"
-                onPress={() =>    
-                navigation.navigate('Play', { name: 'Play', value: players})
-                }
-            />
+            color='black'
+            title="Play"
+            onPress={() =>    
+            navigation.navigate('Play', { name: 'Play', value: players})
+            }
+        />
     </div>
   )
 }
