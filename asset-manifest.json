@@ -1,22 +1,22 @@
 {
   "files": {
-    "app.js": "/mtg-life/static/js/app.73de91ac.chunk.js",
-    "app.js.map": "/mtg-life/static/js/app.73de91ac.chunk.js.map",
+    "app.js": "/mtg-life/static/js/app.fed06a30.chunk.js",
+    "app.js.map": "/mtg-life/static/js/app.fed06a30.chunk.js.map",
     "runtime~app.js": "/mtg-life/static/js/runtime~app.4fa5bf37.js",
     "runtime~app.js.map": "/mtg-life/static/js/runtime~app.4fa5bf37.js.map",
-    "static/js/2.9358cf96.chunk.js": "/mtg-life/static/js/2.9358cf96.chunk.js",
-    "static/js/2.9358cf96.chunk.js.map": "/mtg-life/static/js/2.9358cf96.chunk.js.map",
+    "static/js/2.70b22db4.chunk.js": "/mtg-life/static/js/2.70b22db4.chunk.js",
+    "static/js/2.70b22db4.chunk.js.map": "/mtg-life/static/js/2.70b22db4.chunk.js.map",
     "favicon-16.png": "/mtg-life/favicon-16.png",
     "favicon-32.png": "/mtg-life/favicon-32.png",
     "favicon.ico": "/mtg-life/favicon.ico",
     "index.html": "/mtg-life/index.html",
     "manifest.json": "/mtg-life/manifest.json",
     "serve.json": "/mtg-life/serve.json",
-    "static/js/2.9358cf96.chunk.js.LICENSE.txt": "/mtg-life/static/js/2.9358cf96.chunk.js.LICENSE.txt"
+    "static/js/2.70b22db4.chunk.js.LICENSE.txt": "/mtg-life/static/js/2.70b22db4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime~app.4fa5bf37.js",
-    "static/js/2.9358cf96.chunk.js",
-    "static/js/app.73de91ac.chunk.js"
+    "static/js/2.70b22db4.chunk.js",
+    "static/js/app.fed06a30.chunk.js"
   ]
 }
