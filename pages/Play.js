@@ -3,10 +3,11 @@ import { StyleSheet } from 'react-native';
 import Counter from '../components/Counter'
 
 export default function Play({ route, navigation }) {
-    const players = route.params.value
+    const players = route.params.playerValue
+    const lives = route.params.livesValue
     const fields = [];
     for(let i = 1; i <= players; i++){
-        fields.push(<Counter id={i} key={i}/>)
+        fields.push(<Counter lives={lives} id={i} key={i}/>)
     }
 
   return (

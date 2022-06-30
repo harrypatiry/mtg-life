@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import { Button, Pressable, StyleSheet, Text } from 'react-native'
 
-export default function Counter() {
-    //start at 40 for commander 
-    const [count, setCount] = useState(40)
+export default function Counter(props) {
+    const [count, setCount] = useState(props.lives)
   return (
     <div>
         <p style={{ textAlign: 'center' }}>{count}</p>
